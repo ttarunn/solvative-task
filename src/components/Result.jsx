@@ -50,7 +50,7 @@ const Result = () => {
 
       <div className='w-full text-center space-y-4'>
         <p className='text-xl tracking-normal leading-8'>Your Score</p>
-        <p className={`text-4xl font-bold ${score > 70 ? 'text-[#06AF52]' : 'text-[#AF9B06]'}`}>{score}%</p>
+        <p className={`text-4xl font-bold ${score >= 70 ? 'text-[#06AF52]' : 'text-[#AF9B06]'}`}>{score}%</p>
         <p className='text-2xl tracking-normal leading-8 font-bold'>
           {score >= 70 ? 'Great job!' : 'Keep Practicing!'}
         </p>
