@@ -1,0 +1,509 @@
+{
+    "categories": [
+      {
+        "id": "js_basics",
+        "name": "JavaScript Basics",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+            "options": [
+              "A. <script name='script.js'>",
+              "B. <script href='script.js'>",
+              "C. <script src='script.js'>",
+              "D. <script file='script.js'>"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "Which company developed JavaScript?",
+            "options": [
+              "A. Microsoft",
+              "B. Netscape",
+              "C. Google",
+              "D. Mozilla"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "What is the output of `typeof null`?",
+            "options": [
+              "A. 'object'",
+              "B. 'null'",
+              "C. 'undefined'",
+              "D. 'string'"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "Which of the following is a JavaScript data type?",
+            "options": [
+              "A. Number",
+              "B. Float",
+              "C. Decimal",
+              "D. Integer"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "What does `NaN` represent in JavaScript?",
+            "options": [
+              "A. Not a Number",
+              "B. Number",
+              "C. Null Value",
+              "D. Undefined"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "How do you create a function in JavaScript?",
+            "options": [
+              "A. function = myFunction()",
+              "B. function myFunction()",
+              "C. function:myFunction()",
+              "D. myFunction() = function"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "Which operator is used to assign a value to a variable?",
+            "options": [
+              "A. ==",
+              "B. =",
+              "C. ===",
+              "D. !=="
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "What will be the result of `2 + '2'` in JavaScript?",
+            "options": [
+              "A. 4",
+              "B. '22'",
+              "C. 22",
+              "D. '4'"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "Which method is used to parse a string into an integer in JavaScript?",
+            "options": [
+              "A. parseInt()",
+              "B. toInt()",
+              "C. parseInteger()",
+              "D. int()"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "Which of the following is a correct way to create an array in JavaScript?",
+            "options": [
+              "A. var arr = []",
+              "B. var arr = {}",
+              "C. var arr = ()",
+              "D. var arr = <>"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "angular_basics",
+        "name": "Angular Basics",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is Angular primarily used for?",
+            "options": [
+              "A. Backend development",
+              "B. Mobile development",
+              "C. Frontend web development",
+              "D. Database management"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "What are Angular components?",
+            "options": [
+              "A. Basic building blocks of Angular",
+              "B. Modules of Angular",
+              "C. Services in Angular",
+              "D. Directives in Angular"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "Which directive is used for conditionally including a template in Angular?",
+            "options": [
+              "A. *ngFor",
+              "B. *ngIf",
+              "C. *ngSwitch",
+              "D. *ngInclude"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "What is the purpose of services in Angular?",
+            "options": [
+              "A. Manage data and business logic",
+              "B. Handle user input",
+              "C. Display content",
+              "D. Create components"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "What does `@Input()` decorator do in Angular?",
+            "options": [
+              "A. Passes data from child to parent component",
+              "B. Passes data from parent to child component",
+              "C. Creates a service",
+              "D. Manages routing"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "Which command is used to create a new Angular project?",
+            "options": [
+              "A. ng create",
+              "B. ng new",
+              "C. ng init",
+              "D. ng generate"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "What is the purpose of Angular routing?",
+            "options": [
+              "A. Manage application styles",
+              "B. Navigate between different views or components",
+              "C. Handle data binding",
+              "D. Manage services"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "What is the default file extension for Angular component files?",
+            "options": [
+              "A. .html",
+              "B. .css",
+              "C. .js",
+              "D. .ts"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "Which lifecycle hook is called after Angular has initialized all data-bound properties?",
+            "options": [
+              "A. ngOnInit",
+              "B. ngOnChanges",
+              "C. ngOnDestroy",
+              "D. ngDoCheck"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "Which of the following is used to create a two-way data binding in Angular?",
+            "options": [
+              "A. [(ngModel)]",
+              "B. [ngModel]",
+              "C. ngModel",
+              "D. (ngModel)"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "react_advanced",
+        "name": "React.js Advanced",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is the purpose of `useEffect` hook in React?",
+            "options": [
+              "A. To manage state",
+              "B. To perform side effects in function components",
+              "C. To handle user input",
+              "D. To optimize performance"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "Which method is used to update the state in a class component?",
+            "options": [
+              "A. setState()",
+              "B. updateState()",
+              "C. changeState()",
+              "D. modifyState()"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "What does `props.children` refer to in React?",
+            "options": [
+              "A. The properties of a component",
+              "B. The child components passed to a component",
+              "C. The state of a component",
+              "D. The methods of a component"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "Which of the following is used to create a context in React?",
+            "options": [
+              "A. createContext()",
+              "B. useContext()",
+              "C. ContextProvider()",
+              "D. ReactContext()"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "How do you memoize a component in React?",
+            "options": [
+              "A. useMemo()",
+              "B. memo()",
+              "C. useCallback()",
+              "D. useEffect()"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "What is the purpose of the `key` prop in React lists?",
+            "options": [
+              "A. To optimize rendering",
+              "B. To manage state",
+              "C. To track events",
+              "D. To handle styling"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "What is the main benefit of using React Router?",
+            "options": [
+              "A. State management",
+              "B. Simplified data fetching",
+              "C. Client-side routing",
+              "D. Component styling"
+            ],
+            "correctAnswer": "C",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "Which lifecycle method is called before a component is removed from the DOM?",
+            "options": [
+              "A. componentWillUnmount",
+              "B. componentDidMount",
+              "C. render",
+              "D. componentDidUpdate"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "How do you handle events in React?",
+            "options": [
+              "A. Using HTML event attributes",
+              "B. Using event handlers in JSX",
+              "C. Using the addEventListener method",
+              "D. Using jQuery"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "What is a Higher-Order Component (HOC) in React?",
+            "options": [
+              "A. A component that manages state",
+              "B. A function that takes a component and returns a new component",
+              "C. A component that handles routing",
+              "D. A built-in React component"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          }
+        ]
+      },
+      {
+        "id": "flutter",
+        "name": "Flutter",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "What is Flutter primarily used for?",
+            "options": [
+              "A. Web development",
+              "B. Mobile app development",
+              "C. Desktop applications",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q2",
+            "question": "Which programming language is used to write Flutter applications?",
+            "options": [
+              "A. Java",
+              "B. Dart",
+              "C. C#",
+              "D. JavaScript"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q3",
+            "question": "What is a Widget in Flutter?",
+            "options": [
+              "A. A UI component",
+              "B. A function",
+              "C. A library",
+              "D. A database"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q4",
+            "question": "What is the default method used to run a Flutter app?",
+            "options": [
+              "A. runApp()",
+              "B. startApp()",
+              "C. launchApp()",
+              "D. initApp()"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q5",
+            "question": "Which of the following is a stateful widget in Flutter?",
+            "options": [
+              "A. StatelessWidget",
+              "B. StatefulWidget",
+              "C. Widget",
+              "D. Component"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q6",
+            "question": "How do you define a Stateless widget in Flutter?",
+            "options": [
+              "A. By extending StatelessWidget class",
+              "B. By extending StatefulWidget class",
+              "C. By using the @Stateless annotation",
+              "D. By using the build() method"
+            ],
+            "correctAnswer": "A",
+            "timeLimit": 10
+          },
+          {
+            "id": "q7",
+            "question": "Which of the following is a layout widget in Flutter?",
+            "options": [
+              "A. Container",
+              "B. Column",
+              "C. Row",
+              "D. All of the above"
+            ],
+            "correctAnswer": "D",
+            "timeLimit": 10
+          },
+          {
+            "id": "q8",
+            "question": "What is the purpose of the `setState()` method in Flutter?",
+            "options": [
+              "A. To navigate between screens",
+              "B. To update the UI",
+              "C. To fetch data",
+              "D. To initialize variables"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q9",
+            "question": "Which command is used to build a Flutter application?",
+            "options": [
+              "A. flutter build",
+              "B. flutter run",
+              "C. flutter create",
+              "D. flutter compile"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          },
+          {
+            "id": "q10",
+            "question": "What is the primary use of the `pubspec.yaml` file in Flutter?",
+            "options": [
+              "A. To define app layout",
+              "B. To manage dependencies",
+              "C. To configure routing",
+              "D. To set up localization"
+            ],
+            "correctAnswer": "B",
+            "timeLimit": 10
+          }
+        ]
+      }
+    ]
+  }
+  
