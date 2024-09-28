@@ -15,7 +15,7 @@ Before running this project locally, ensure you have Node.js and npm installed o
 Clone the repository:
 
 ```bash
-git clone [https://github.com/ahuja2666/solvative-assignment.git](https://github.com/ttarunn/solvative-task)
+git clone https://github.com/ttarunn/solvative-task
 cd solvative-task
 npm install
 npm run start
